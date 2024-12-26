@@ -1,0 +1,30 @@
+{
+  "rpc": {
+    "endpoint": "https://api.mainnet-beta.solana.com",
+    "backup_endpoints": [
+      "https://solana-api.projectserum.com"
+    ]
+  },
+  "wallets": {
+    "follow_addresses": [
+      "EfbbhahGNuhqEraRZXrwETfsaKxScngEttdQixWAW4WE",
+"EHRAzDzsqX53AfysF68CwV3XjH46QH2iteZiByvxSbPM",
+"29NDpKhJijjpRS8Cw6C6EjZGWYx6EH16P4JcCvs6de7e",
+"4t9bWuZsXXKGMgmd96nFD4KWxyPNTsPm4q9jEMH4jD2i"
+    ]
+  },
+  "trading": {
+    "amount_per_trade": 0.1,
+    "slippage": "auto",
+    "manual_slippage": 1.0,
+    "gas_adjustment": 1.5,
+    "stop_loss": {
+      "enabled": true,
+      "percentage": 20
+    },
+    "take_profit": {
+      "enabled": false,
+      "percentage": 20
+    }
+  }
+}
